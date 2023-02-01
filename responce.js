@@ -7,10 +7,12 @@ function getBotResponse(input) {
     } else if (input == "scissors") {
         return "rock";
     }
+    // kill
+    
 
     // Simple responses
-    if (input == "hello" || input=="hi") {
-        return "Hi!👋" ;
+    if (input == "hello" || input=="hi" || input=="hey") {
+        return "Hi!👋";
     } else if (input == "goodbye") {
         return "Talk to you later!";
     }
@@ -23,8 +25,8 @@ function getBotResponse(input) {
     else if (input == "") {
         return "Good night have a nice day!🌃";
     }
-    else if (input == "which college is a best college") {
-        return "vaigai collage of enginreering (V.C.E)";
+    else if (input == "which college is a best college in madurai") {
+        return  "vaigai collage of enginreering (V.C.E)";
     }
     else if (input == "who are you"||input=="who is that") {
         return "Hi! i'm gokul's assistant 🤖 How can I help you!";
@@ -42,8 +44,13 @@ function getBotResponse(input) {
         return "don't worry all is well💝";
     }
     // else if (input == "can i kill you") {
-    //     return "yes you can type 'yes' to kill me hope you will not do that";
-    // }
+    //     return "yes to kill me";
+    // }if (input =="yes"){
+    //      return "i'm dead";
+    // }else{
+    //     return "thanks for not killing me";
+    // }   
+    
     else if (input == "tell me a joke") {
         return "joke!";
     }
@@ -72,3 +79,4 @@ function getBotResponse(input) {
         return "Try asking something else!";
     }
 }
+// Runner.prototype.gameOver=function(){}
